@@ -74,10 +74,12 @@ function App() {
         ref={backGroundColor}
         style={{ top: -100, left: -100 }}
       ></div>
+
       <div
         className="bg-red-500 h-5 w-5 rounded-full fixed z-40"
         ref={cursor}
-      />
+      ></div>
+
       <div
         className="relative"
         ref={body}
@@ -98,6 +100,13 @@ function App() {
               creative technology, constantly reimagining what digital craft can
               do for present-time ads and campaigns.
             </div>
+
+            {!showAnimation && (
+              <div className="text-6xl w-[30%] text-center font-semibold absolute top-40 right-40">
+                Click Anywhere to Animate
+              </div>
+            )}
+
             {showAnimation &&
               data[0].map((canvasdets, index) => (
                 <Canvas key={index} details={canvasdets} />
