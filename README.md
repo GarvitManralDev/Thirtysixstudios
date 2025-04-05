@@ -1,4 +1,3 @@
-Recreated a Thirtysixstudio to implement modern web design techniques, focusing on clean layout, responsive design, and subtle animations.
 
 ![image](https://github.com/user-attachments/assets/348118a1-aba9-4148-8118-306433d12755)
 
